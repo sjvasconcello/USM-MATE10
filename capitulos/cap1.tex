@@ -1,0 +1,18 @@
+\section{Fundamentos del Lenguaje Matemático}
+\subsection{Nociones de lógica y teoría de conjuntos}
+\subsubsection{Conectivos Lógicos y Tablas de Verdad}
+
+\begingroup
+\setlength{\tabcolsep}{5pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.5} % Default value: 1
+\begin{center}
+  \begin{tabular}{c|c|cccccc}
+              &           & Conjunción         & Disyunción       & Implicación Condicional & Equivalencia Bicondicional  & Negación        & Disyunción exclusiva \\
+    {\bf $p$} & {\bf $q$} & {\bf $p \wedge q$} & {\bf $p \vee q$} & {\bf $p \Rightarrow q$} & {\bf $p \Leftrightarrow q$} & {\bf $\bar{p}$} & {\bf $p \veebar q$}  \\\hline
+    1         & 1         & 1                  & 1                & 1                       & 1                           & 0               & 0                    \\
+    1         & 0         & 0                  & 1                & 0                       & 0                           & 0               & 1                    \\
+    0         & 1         & 0                  & 1                & 1                       & 0                           & 1               & 1                    \\
+    0         & 0         & 0                  & 0                & 1                       & 1                           & 1               & 0
+  \end{tabular}
+\end{center}
+\endgroup
