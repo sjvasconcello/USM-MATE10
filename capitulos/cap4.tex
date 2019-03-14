@@ -1,0 +1,47 @@
+\newpage
+\section{Conjuntos}
+\begin{description}
+  \item[Conjunto:] Concepto primitivo, pero puede ser considerado como una colección de elementos u objetos 
+\end{description}
+
+\subsection{Definiciones Básicas}
+
+\begingroup
+\setlength{\tabcolsep}{5pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.5} % Default value: 1
+\begin{center}
+  \begin{tabular}{l|l}
+    Unión de A y B& $A \cup B = \lbrace x \in \mathcal{U} / x \in A \vee x \in B \rbrace$\\
+    Intersección A y B&$A \cap B = \lbrace x \in \mathcal{U} / x \in A \wedge x \in B \rbrace$\\
+    Diferencia de A y B&$A - B = \lbrace x \in A / x \notin B \rbrace$\\
+    Complemento de A&$A^c = \mathcal{U} - A = \lbrace x \in \mathcal{U} / x \notin A \rbrace$
+  \end{tabular}
+\end{center}
+\endgroup
+
+\subsection{Proposición}
+Sean $A, B$ y $C$ conjuntos. Se tiene las siguientes propiedades:
+\begingroup
+\setlength{\tabcolsep}{5pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.5} % Default value: 1
+\begin{center}
+\begin{tabular}{l|c}
+\bf Nombre&\bf Propiedades\\ \hline
+Identidad&$A \cap B = A,\hspace{0.3cm} A \cap \phi = \phi, \hspace{0.3cm} A \cup \mathcal{U} = \mathcal{U}, \hspace{0.3cm} A \cup \phi = A$\\
+Idempotencia&$A \cap A = A, \hspace{0.3cm} A \cup A = A$\\
+Involución&$(A^c)^c = \phi$\\
+Complemento&$A \cap A^c = \phi, \hspace{0.3cm} A \cup A^c = \mathcal{U}$\\
+Conmutatividad&$A \cap B = B \cap A, \hspace{0.3cm} A \cup B = B \cup A $\\
+Asociatividad&$ A \cap (B \cap C) = (A \cap B) \cap C, \hspace{0.3cm} A \cup (B \cup C) = (A \cup B) \cup C $\\
+Distributividad&$A \cap (B \cup C) = (A \cap B) \cup (A \cap B), \hspace{0.3cm} A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$\\
+Leyes de Morgan&$(A \cap B)^c = A^c \cup B^c, \hspace{0.3cm} (A \cup B)^c = A^c \cap B^c$
+\end{tabular}
+\end{center}
+\endgroup
+
+\hrule
+$$A \subseteq B \Leftrightarrow B^c \subseteq A^c$$
+$$A \subseteq B \Rightarrow A \cap B = A  \hspace{0.1cm} \wedge \hspace{0.1cm}  A \cup B =B$$
+$$A \subseteq B \hspace{0.1cm} \wedge \hspace{0.1cm} B \subseteq C \Rightarrow A \subseteq C$$
+$$A \cap B \subseteq A \subseteq A \cup B$$
+\hrule
